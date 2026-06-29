@@ -1,0 +1,16 @@
+{
+  "name": "pi-ask-user-question",
+  "version": "0.1.0",
+  "description": "A pi extension that lets agents ask focused user questions, with RPC/Pendant-compatible fallbacks.",
+  "type": "module",
+  "keywords": ["pi-package", "pi", "pi-extension", "ask-user", "questions", "pendant"],
+  "license": "MIT",
+  "author": "fractiunate",
+  "repository": { "type": "git", "url": "https://github.com/fractiunate/pi-ask-user-question.git" },
+  "pi": { "extensions": ["./extensions/ask-user-question.ts"] },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "typebox": "*"
+  }
+}
